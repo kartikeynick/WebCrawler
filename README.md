@@ -9,6 +9,7 @@ This is a web crawler application implemented with Python and Flask. It allows u
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+  - [Run the app](#run-the-app)
   - [Scheduling URLs for Crawling](#scheduling-urls-for-crawling)
   - [Retrieving Crawl Results](#retrieving-crawl-results)
 - [Examples](#examples)
@@ -48,6 +49,13 @@ This is a web crawler application implemented with Python and Flask. It allows u
 
 ### Usage
 
+## Run the app
+
+- Run the app by the following command:
+
+  ```bash
+  python3 web-crawler.py
+  
 ## Scheduling URLs for Crawling
 
 - To schedule a URL for crawling, make a POST request to the /schedule endpoint with the URL you want to crawl. The API will return a unique identifier for the crawl job.
