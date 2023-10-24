@@ -57,8 +57,9 @@ This is a web crawler application implemented with Python and Flask. It allows u
 
 - This command schedules the crawling of "your-website" and returns a JSON response with an identifier, like this:
 
-  ```bash
+  ```json
   {"identifier": "your-identifier"}
+  ```
 
 ## Retrieving Crawl Results
 
