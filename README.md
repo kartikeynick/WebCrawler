@@ -81,4 +81,4 @@ Contributions are welcome! Please open an issue or submit a pull request with an
 
 ### License
 
-License under [MIT-License](https://license.md/licenses/mit-license/)
+License under [MIT-License](https://www.mit.edu/~amini/LICENSE.md)
