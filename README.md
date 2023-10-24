@@ -53,20 +53,32 @@ This is a web crawler application implemented with Python and Flask. It allows u
 - To schedule a URL for crawling, make a POST request to the /schedule endpoint with the URL you want to crawl. The API will return a unique identifier for the crawl job.
 
   ```bash
-  curl -X POST -H "Content-Type: application/json" -d '{"url": "http://"<your website's name>"}' http://127.0.0.1:5000/schedule
+  curl -X POST -H "Content-Type: application/json" -d '{"url": "http://"<your-websites-name>"}' http://127.0.0.1:5000/schedule
 
 - This command schedules the crawling of "<your website>" and returns a JSON response with an identifier, like this:
 
   ```bash
-  {"identifier": "your-identifire"}
+  {"identifier": "<your-identifire>"}
 
+## Retrieving Crawl Results
+
+- To retrieve the results of a scheduled crawl, make a GET request to the /results/<identifier> endpoint, where <identifier> is the unique identifier provided when scheduling the URL.
 
   ```bash
   curl http://127.0.0.1:5000/results/d042aaf5-9ecb-4e64-9927-72c3b2a53f84
 
+### Examples 
 
+Here are some Examples of the websites you can use:
+
+- [bbc news] (https://www.bbc.com/news)
+- [The New York Times](https://www.nytimes.com/)
+- [CNN] (https://www.nytimes.com/)
   
+### Contributing
 
+Contributions are welcome! Please open an issue or submit a pull request with any improvements or additional features.
 
+### License
 
-``` bash
+License under [MIT-License](https://license.md/licenses/mit-license/)
