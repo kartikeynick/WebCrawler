@@ -72,9 +72,9 @@ This is a web crawler application implemented with Python and Flask. It allows u
 
 Here are some Examples of the websites you can use:
 
-- [bbc news] (https://www.bbc.com/news)
+- [bbc news](https://www.bbc.com/news)
 - [The New York Times](https://www.nytimes.com/)
-- [CNN] (https://www.nytimes.com/)
+- [CNN](https://www.nytimes.com/)
   
 ### Contributing
 
