@@ -40,3 +40,33 @@ This is a web crawler application implemented with Python and Flask. It allows u
 2. Change into the project directory:
     ```bash
    cd src
+
+3. Install the required Python packages:
+    ```bash
+    pip install Flask BeautifulSoup4 requests
+
+
+### Usage
+
+## Scheduling URLs for Crawling
+
+- To schedule a URL for crawling, make a POST request to the /schedule endpoint with the URL you want to crawl. The API will return a unique identifier for the crawl job.
+
+  ```bash
+  curl -X POST -H "Content-Type: application/json" -d '{"url": "http://"<your website's name>"}' http://127.0.0.1:5000/schedule
+
+- This command schedules the crawling of "<your website>" and returns a JSON response with an identifier, like this:
+
+  ```bash
+  {"identifier": "your-identifire"}
+
+
+  ```bash
+  curl http://127.0.0.1:5000/results/d042aaf5-9ecb-4e64-9927-72c3b2a53f84
+
+
+  
+
+
+
+``` bash
