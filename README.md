@@ -36,3 +36,7 @@ This is a web crawler application implemented with Python and Flask. It allows u
 
    ```bash
    git clone https://github.com/kartikeynick/web-crawler.git
+
+2. Change into the project directory:
+    ```bash
+   cd src
